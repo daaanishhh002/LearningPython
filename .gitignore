@@ -2,6 +2,7 @@
 advanced/
 intermediate/
 .ipynb_checkpoints/
+libs/
 
 *.txt
 *.png
