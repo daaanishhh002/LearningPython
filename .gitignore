@@ -1,0 +1,9 @@
+100DaysPython/
+advanced/
+intermediate/
+.ipynb_checkpoints/
+
+*.txt
+*.png
+
+test.py
