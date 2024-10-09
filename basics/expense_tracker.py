@@ -4,7 +4,7 @@ pp = pprint.PrettyPrinter(indent=2, width=20)
 expenses_main = {}
 prompt = """
 ***********************************
-        Expense Tracker
+          Expense Tracker
 ***********************************
 Commands:
 add   - add or remove an expense
