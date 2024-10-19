@@ -3,7 +3,7 @@ advanced/
 .ipynb_checkpoints/
 libs/
 
-*.txt
+# *.txt
 *.png
 *.mp4
 
