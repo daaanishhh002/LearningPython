@@ -3,9 +3,10 @@ advanced/
 .ipynb_checkpoints/
 libs/
 
-# *.txt
+*.txt
 *.png
 *.mp4
 
 test.py
 main.py
+Untitled.ipynb
