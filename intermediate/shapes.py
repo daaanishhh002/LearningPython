@@ -52,3 +52,21 @@ class Rectangle(Shape):
 
     def get_sides(self):
         return self.__length, self.__breadth
+
+
+if __name__ == '__main__':
+    print(Shape.total_shapes_created)
+    circle = Circle(22)
+    square = Square(19)
+    rectangle = Rectangle(15, 9)
+    print(Shape.total_shapes_created)
+
+
+    name = circle.get_name()
+    print(name)
+
+    side = square.get_side()
+    print(side)
+
+    area = rectangle.calculate_area()
+    print(area)
