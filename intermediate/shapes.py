@@ -3,6 +3,8 @@ from abc import ABC, abstractmethod
 
 
 class Shape(ABC):
+    """Abstract class for creating other shapes.
+    """    
     total_shapes_created = 0
 
     def __init__(self, name):
@@ -19,7 +21,7 @@ class Shape(ABC):
 
 class Circle(Shape):
     def __init__(self, radius):
-        super().__init__('Circle')
+        super().__init__('Circle')     # inits name to 'Circle'
         self.__radius = radius
 
     def calculate_area(self):
@@ -31,7 +33,7 @@ class Circle(Shape):
 
 class Square(Shape):
     def __init__(self, side):
-        super().__init__('Square')
+        super().__init__('Square')     # inits name to 'Square'
         self.__side = side
 
     def calculate_area(self):
@@ -43,7 +45,7 @@ class Square(Shape):
 
 class Rectangle(Shape):
     def __init__(self, length, breadth):
-        super().__init__('Rectangle')
+        super().__init__('Rectangle')  # inits name to 'Rectangle'
         self.__length = length
         self.__breadth = breadth
 
@@ -55,6 +57,7 @@ class Rectangle(Shape):
 
 
 if __name__ == '__main__':
+    # prints results
     print(Shape.total_shapes_created)
     circle = Circle(22)
     square = Square(19)
