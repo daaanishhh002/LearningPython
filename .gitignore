@@ -2,6 +2,7 @@
 advanced/
 .ipynb_checkpoints/
 libs/
+research/
 
 *.txt
 *.png
